@@ -1,7 +1,17 @@
 aid: glimpse
 name: Glimpse
-description: Glimpse is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Glimpse (legally Dime Campus, Inc.) is an AI-native retail finance platform
+  that automates deductions management, revenue recovery, and cash application
+  for consumer brands and CPG companies. Its AI agents are trained on billions
+  of dollars in retail transactions to track, validate, and dispute invalid
+  deductions, recover trapped cashflow, and match payments faster across
+  retailer accounts. Glimpse reports a 91% dispute win rate, $200M+ in
+  transactions processed, and 100+ hours saved monthly per finance team, and
+  works alongside major retailers including Walmart, Target, Kroger, Walgreens,
+  and Amazon. The San Francisco company serves 200+ consumer brands, raised a
+  $35M Series A, and is backed by 8vc. It is currently an enterprise, contact-
+  sales SaaS with no public self-service API or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/glimpse/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,32 @@ x-backed-by:
 - 8vc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-name: Dime Campus, Inc.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6852e9ba3916be9a10af657f/686d883124fc3e198d5f86bc_img.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Retail Finance
+- CPG
+- Deductions Management
+- Accounts Receivable
+- Cash Application
+- Revenue Recovery
+- AI Agents
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://tryglimpse.com
+- type: Blog
+  url: https://www.tryglimpse.com/blog
+- type: Support
+  url: https://www.tryglimpse.com/contact
+- type: TermsOfService
+  url: https://www.tryglimpse.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.tryglimpse.com/privacy-policy
+- type: DomainSecurity
+  url: security/glimpse-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
